@@ -40,7 +40,7 @@ namespace CalculadoraGorgeta
 
 
             valor = valor * .10;
-            valorTotal=valor * .10 + valor;
+            valorTotal= valor + (valor * 10);
             txtGorgeta.Text = valor.ToString();
             txtValorTotal.Text =valorTotal.ToString();
 
